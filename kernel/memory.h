@@ -1,0 +1,7 @@
+#ifndef MEMORY_H
+#define MEMORY_H
+
+void init_memory(void);
+void* kmalloc(unsigned int size);
+
+#endif
